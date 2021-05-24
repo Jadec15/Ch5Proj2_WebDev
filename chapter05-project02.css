@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+   font-family: 'Merriweather', serif; 
+  }
+  body {
+     font-family: 'Open Sans', Arial, sans-serif;
+     font-size: 16px;
+  }
+  
+  
+  legend {
+     background-color: #616161 ;
+     color: white;
+     margin: auto;
+     width: 80%;
+     padding: 5px;
+     text-align: center;
+  
+  }
+  
+  fieldset {
+     margin: 1em auto;
+     background-color: #F5F5F5;
+     width: 95%;
+     padding: 5px;
+  }
+  
+  div#searchBox, div#settingsBox{
+     margin: 0.15em auto;
+     background-color: #E0E0E0;
+     border: 1pt solid #616161;
+     width: 90%;
+     padding: 15px;
+  }
+
+div#paintingBox{
+   margin: auto;
+   margin-top: 10px;
+   background-color: #F5F5F5;
+   border: 1pt solid #616161;
+   width: 92.5%;
+}
+
+div#searchBox { margin-top: 1em; }
+
+table{
+   padding: 0.35em;
+   margin: auto;
+   margin-top: 10px;
+   background-color:#F5F5F5;
+   width: 95%;
+   border-collapse: collapse;
+}
+
+thead th{
+   border-bottom: 2pt solid #616161;
+   background-color: #E0E0E0;
+   
+}
+
+caption {
+   background-color: #BDBDBD;
+   font-weight: bold;
+   padding: 0.25em;
+}
+
+tbody tr{
+    border-bottom: 2pt solid #E0E0E0;
+    height: 100px;
+ }
+
+td {
+   vertical-align: middle;
+
+}
+td img {
+   vertical-align: middle;
+  
+}
+
+.photo{
+   border:3px double #9c9c9c;
+}
